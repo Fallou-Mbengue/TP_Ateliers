@@ -68,6 +68,7 @@ nav{
 section{
     display: flex;
     margin-bottom: 20px;
+    padding: 50px;
 }
 article, aside{
     text-align: justify;
@@ -75,6 +76,9 @@ article, aside{
 article{
     margin-right: 50px;
     flex: 3;
+}
+article img{
+    display: flex;
 }
 aside{
     flex: 1.2;
